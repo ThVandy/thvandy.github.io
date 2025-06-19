@@ -1,14 +1,88 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <meta charset="UTF-8">
+  <meta name="description" content="ThVandy's Portfolio Page">
+  <meta name="keywords" content="HTML, CSS">
+  <meta name="author" content="Skylor VanderLinden">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-    <title>My GitHub Pages Site</title>
-  </head>
-  <body>
-    <h1>Hello world!</h1>
-    <p>Welcome to my GitHub Pages site!</p>
-	<p>I will be developing this website as a side project from learning more C# :D</p>
-	<p>Here is a link to my Unity Play Page!</p>
-	<a href="https://play.unity.com/en/user/e831b4ab-f13b-454d-acab-4363f9b5ce7c">Go Check Out my Programming Theory Project</a>
-  </body>
+  <script src="https://kit.fontawesome.com/8b53ea7a4e.js" crossorigin="anonymous"></script>
+  <title>ThVandy's Portfolio Page</title>
+ </head>
+ <body>
+  <nav id="navbar">
+    <ul>
+      <li class="navbar-list"><a href=#welcome-section>Welcome</a></li>
+      <li class="navbar-list"><a href=#about-me>About</a></li>
+      <li class="navbar-list"><a href=#projects>Projects</a></li>
+      <li class="navbar-list"><a href=#contact>Contact</a></li>
+    </ul>
+  </nav>
+  <section id="welcome-section" class="welcome-section">
+    <h1>Hello, I'm ThVandy</h1>
+    <h3>Programmer, Developer, and Designer</h3>
+    <h2>Nice to meet you</h2>
+  </section>
+  <section id="about-me">
+    <div class="about-me-grid">
+      <div class="picture-headshot">
+        <img class="headshot" alt="headshot" src="https://media.licdn.com/dms/image/v2/C5603AQE_Q7ipiQKITQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517252896221?e=1755129600&v=beta&t=ud57JEyx4dyrN6wtwHmR3i0Y8BeZdeN0yqO0CAhwZBw">
+      </div>
+      <div class="quick-facts">
+        <ul>
+          <li><mark class="list-clause">Name:</mark> Skylor VanderLinden</li>
+          <li><mark class="list-clause">Location:</mark> Ohio, US</li>
+          <li><mark class="list-clause">Software:</mark> Visual Studio, Unity, Autodesk Fusion 360</li>
+          <li><mark class="list-clause">Languages:</mark> C#, HTML, CSS</li>
+        </ul>
+      </div>
+      <div class="my-story">
+        <h1>My Story</h1>
+        <p>My journey began at seven, when a simple Lego robot sparked a lifelong passion. That very first creation—an optical path‑detection robot—was more than child’s play; it foreshadowed a future driven by innovation. From that moment on, robotics and programming weren’t just hobbies—they were my true calling.</p>
+        <p>In college, I enrolled in business studies, only to discover that my heart belonged in tech. I switched to application development, immersing myself in code and problem‑solving. Though financial obstacles prevented me from finishing my degree, I carried forward every lesson and insight I gained.</p>
+        <p>Balancing long workdays, bills, and the responsibilities of parenting, I never stopped building. I explored tools like Unity and Fusion 360, created several game prototypes, and engineered functional hardware—including a custom, API‑controlled webcam mounted on a 3D‑printed, motorized base. Project by project, line by line, I advanced my craft and pressed onward.</p>
+        <p>Today, I’m not merely working—I’m actively designing a future powered by code, creativity, and perseverance. That first Lego robot was just the beginning.</p>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <div class="projects-grid project-tile">
+      <h1>My Projects</h1>
+      <a class="webcam-project" href="https://github.com/ThVandy/Coding-Projects/blob/main/ESP32_Streamerbot%20Messaging.cs" target="_blank">
+        <div>
+          <img alt="webcam-project" src="https://media.discordapp.net/attachments/1175838273877315584/1329648808140865617/20250116_220909.jpg?ex=68537f73&is=68522df3&hm=6a97b1d70d5c1e53e93b6beb9019ec4e76661ce6dfc09df9c27b4b1588ec2d45&=&format=webp&width=1084&height=1084">
+          <p>Webcam Project</p>
+        </div>
+      </a>
+      <a class="unity-projects" href="https://play.unity.com/en/user/e831b4ab-f13b-454d-acab-4363f9b5ce7c" target="_blank">
+        <div>
+          <img alt="unity-projects" src="https://play.unity.com/_next/image?url=https%3A%2F%2Fplay.unity.com%2Fapi%2Fv1%2Ffiles%2Ffile%2F0d0019aa-1601-4859-8b43-df6dcb58db47%2Fcontent&w=640&q=75">
+          <p>Unity Projects</p>
+        </div>
+      </a>
+      <a class="other-projects" href="https://www.thingiverse.com/thvandy/designs" target="_blank">
+        <div>
+          <img alt="other-projects" src="https://cdn.thingiverse.com/assets/27/1e/8a/db/df/large_display_9a26e127-4212-4db4-abde-e53aa315fdac.JPG">
+          <p>Other Projects</p>
+        </div>
+      </a>
+    </div>
+ </section>
+  <section id="contact">
+    <div class="contact-grid">
+      <a id="profile-link-email" href="mailto:thvandy+website@gmail.com" title="Email" target="_blank">
+        <i class="fa-solid fa-envelope" style="font-size:120px"></i>
+      </a>
+      <a id="profile-link" href="https://github.com/ThVandy" title="Github" target="_blank">
+        <i class="fa-brands fa-github" style="font-size:120px"></i>
+      </a>
+      <a id="profile-link-discord" href="https://discordapp.com/users/145779937331249152" title="Discord" target="_blank">
+        <i class="fa-brands fa-discord" style="font-size:120px"></i>
+      </a>
+      <a id="profile-link-linkedin" href="www.linkedin.com/in/skylor-vanderlinden-ab01b612a" title="LinkedIn" target="_blank">
+        <i class="fa-brands fa-linkedin" style="font-size:120px"></i>
+      </a>
+  </section>
+ </body>
 </html>
